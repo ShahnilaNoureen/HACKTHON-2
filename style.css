@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #5E6282;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.container-fluid img {
+  margin: 10px 0 0 150px;
+}
+
+.navbar-nav {
+  margin-left: 250px;
+  margin-top: 20px;
+}
+
+.nav-item {
+  margin-left: 50px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+/* Hero Container */
+.container {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  gap: 20px;
+}
+
+.container1 {
+  flex: 1;
+  padding: 20px;
+}
+
+.container1 h5 {
+  color: #DF6951;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+.container1 h1 {
+  font-family: 'Volkhov', serif;
+  font-size: 60px;
+  font-weight: 1000;
+}
+
+.container1 p {
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.button1 {
+  color: white;
+  background-color: #F1A501;
+  border-radius: 20px;
+  padding: 15px 30px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.button2 {
+  margin-top: 20px;
+}
+
+.button3 {
+  text-decoration: none;
+  color: #5E6282;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.container2 {
+  flex: 1;
+}
+
+.container2 img {
+  width: 100%;
+  height: auto;
+}
+
+/* Category */
+.category {
+  max-width: 1000px;
+  margin: 60px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.card-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.cards img {
+  width: 130px;
+  height: auto;
+}
+
+/* Selling */
+.selling {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.selling-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.selling-card img {
+  width: 300px;
+  height: auto;
+}
+
+/* Booking */
+.booking {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.booking1, .booking2 {
+  flex: 1;
+  max-width: 500px;
+}
+
+.booking2 img {
+  width: 100%;
+  height: auto;
+}
+
+/* Testimonial */
+.testimonial {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  text-align: center;
+}
+
+.testimonial1, .testimonial2 {
+  flex: 1;
+  max-width: 500px;
+}
+
+.testimonial2 img {
+  width: 100%;
+  height: auto;
+}
+
+/* Logos */
+.logos {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.logos img {
+  width: 90%;
+  max-width: 1000px;
+}
+
+/* Subscribe */
+.subscribe {
+  background-color: #f9f5f8;
+  padding: 40px 20px;
+  border-top-left-radius: 90px;
+  text-align: center;
+  max-width: 1000px;
+  margin: 60px auto;
+}
+
+.subscribe input {
+  padding: 15px;
+  width: 70%;
+  max-width: 400px;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.subscribe a {
+  display: inline-block;
+  padding: 15px 40px;
+  background-color: lightcoral;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background: #f0f0f0;
+}
+
+.footer div {
+  flex: 1 1 200px;
+  text-align: center;
+  margin: 10px;
+}
+
+.footer img {
+  max-width: 120px;
+  margin-top: 20px;
+}
+
+.footer p, .footer a {
+  font-size: 13px;
+  color: #5E6282;
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin: 10px 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item {
+    margin: 10px 0;
+  }
+
+  .container1 h1 {
+    font-size: 40px;
+  }
+
+  .selling-card img,
+  .cards img {
+    width: 80%;
+  }
+
+  .subscribe input {
+    width: 90%;
+  }
+
+  .subscribe h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container1 h1 {
+    font-size: 30px;
+  }
+
+  .button1 {
+    padding: 10px 20px;
+  }
+
+  .subscribe a {
+    padding: 10px 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer div {
+    margin-bottom: 20px;
+  }
+}
